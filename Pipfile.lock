@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1157f34b12e6c8521fc801316502e5b70bb70a3535c3eca8a2a27aa7eb3a0212"
+            "sha256": "fc832830da1563e341bb343b64ec07bccbcdf5f25505da3bb830aea22c47e5c0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -39,6 +39,15 @@
             ],
             "markers": "python_version >= '3.10'",
             "version": "==8.3.2"
+        },
+        "faker": {
+            "hashes": [
+                "sha256:20f3a6ec8c266b74d4c554e34118b21c3c2056c0b4a519d15c8decb3a4e6e795",
+                "sha256:71ab3c3370da9d2205ab74ffb0fd51273063ad562b3a3bb69d0026a20923e318"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==40.15.0"
         },
         "flask": {
             "hashes": [
@@ -249,6 +258,15 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==3.0.3"
+        },
+        "marshmallow": {
+            "hashes": [
+                "sha256:46c4fe6984707e3cbd485dfebbf0a59874f58d695aad05c1668d15e8c6e13b46",
+                "sha256:fb43c53b3fe240b8f6af37223d6ef1636f927ad9bea8ab323afad95dff090880"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.10'",
+            "version": "==4.3.0"
         },
         "sqlalchemy": {
             "hashes": [
