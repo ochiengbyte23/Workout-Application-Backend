@@ -23,3 +23,9 @@ class WorkoutSchema(Schema):
     duration_minutes = fields.Int(validate=validate.Range(min=1))
     notes = fields.Str()
     workout_exercises = fields.List(fields.Nested(WorkoutExerciseSchema), dump_only=True)
+    
+exercise_schema = ExerciseSchema()
+exercises_schema = ExerciseSchema(many=True)
+workout_schema = WorkoutSchema()
+workouts_schema = WorkoutSchema(many=True)
+workout_exercise_schema = WorkoutExerciseSchema()
